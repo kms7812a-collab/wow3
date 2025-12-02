@@ -1,0 +1,570 @@
+<html>
+<head><meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+	<style>
+		html{word-break: keep-all;}
+		h0{font-size: 3rem; margin: 0px; font-weight: 600; letter-spacing: -2px; text-shadow: 2px 3px 2px black;}
+		h1{font-size: 6.25rem; margin: 15px 0px 0px; font-weight: 900; line-height: 1.15; letter-spacing: -3px; text-shadow: 2px 3px 2px black;}
+		h2{font-size: 3rem; margin: 0px; font-weight: 900}
+		h3{font-size: 5.6rem; font-weight: 900; margin: 400px 0px 80px; line-height: 120%}
+		
+
+		h4{font-size: 60px; margin: 0px; font-weight: 900; margin: 100px 0px 20px;}
+		h5{font-size: 5rem; margin: 0px; font-weight: 900}
+		h6{font-size: 4.8rem;
+  margin: 40px 0px 60px;
+  font-weight: 900;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  letter-spacing: 0.5rem;
+  }
+
+
+		p{font-size: 24px; margin: 35px 0px; font-weight: 480}
+		body{margin: 0; margin: auto;}
+		
+
+video{width: 100%; position: absolute; left: 0; top;background-attachment: fixed}
+		img{width: 846px; margin-top: 0px; margin-bottom: 10px}
+		section{padding: 0px 0px; margin: 0px; overflow:hidden; }
+
+		body{perspective: 500px; }
+
+		.contents{width:846;
+			margin: auto;
+			padding: 220px 0px 280px 0px;  position: relative;}
+		.black{background: #080808; color: #dfdfdf;}
+		.white{background: #fafafa; color: #080808;}
+		.blue{background: #6633cc; color: #dfdfdf;}
+
+		/*글자색*/
+		em{color: #6600ff; font-style: normal;}
+		
+.c2{width:629px ; padding-left: 217px;}
+.c22{width:629px ; margin: 0px 0px 0px 217px; font-size: 2.5rem; font-weight: 700}
+.c3{width: 413px; margin: 400px 0px 0px 433px}
+.c4{width:196px ; margin: 0px 0px 0px 728px;}
+.c5{width: 629px; padding-right: 217px;}
+
+.f1{width: 413; margin: 0px 20px 0px 0px}
+
+.h7{font-size: 2.5rem; margin: 0px; font-weight: 700}
+.h7c{font-size: 2.5rem; margin: 0px; font-weight: 700; text-align: center;}
+
+.punch{position: absolute; left: -430px;bottom: -50px; width: 700px;}
+.mario{position: absolute; left: -430px;bottom: -50px; width: 700px;}
+.l0{position: relative; bottom: -50px; width: 105%; margin: 0px; left: -10px}
+.l1{position: relative; bottom: 1px; width: 105%; margin: 0px; left: -10px}
+.l2{position: relative; bottom: -1px; width: 105%; margin: 0px; left: -10px}
+.l3{position: absolute; bottom: 0px; width: 105%; margin: 0px; left: -10px; z-index: 0;}
+.l4{position: absolute; bottom: 7169px; width: 100%; margin: 0px; left: 0px; z-index: 0;}
+.fight{position: absolute; left: -240; bottom: 250px; width: 820px; overflow: hidden;}
+.WHO{position: absolute; Left: -340px; bottom: 660px; width: 940px}
+.fire{position: absolute; Left:630px; bottom: 1550px; width: 430px; margin-bottom: -20px;}
+.fire2{position: absolute; left:-320px; bottom: 2000px; width: 300px; margin-bottom: 0px;}
+.fire3{position: absolute; left:430px; bottom: 2630px; width: 270px; margin-bottom: 0px;}
+
+
+.coin{position: absolute; left:250px; width: 680px; margin-bottom: 0px;animation: opa 2s infinite linear;}
+	@keyFrames opa{
+					0%{transform: rotateX(0deg); bottom: 1300px; opacity: 0%}
+					50%{transform: rotateX(180deg); bottom:700px; opacity: 100%}
+					100%{transform: rotateX(360deg); bottom:100px; opacity: 0%}
+				}
+
+.coin2{position: absolute; Left:-280px; bottom: 0px; width: 300px; margin-bottom: 0px;animation: rot 2s infinite linear}
+	@keyFrames rot{
+					0%{transform: rotateX(0deg); bottom: 1000px; opacity: 0%}
+					50%{transform: rotateX(180deg); bottom:500px; opacity: 100%}
+					100%{transform: rotateX(360deg); bottom:0px; opacity: 0%}
+				}
+.coin3{position: absolute; Left:820px; width: 300px; margin-bottom: 0px;animation: rot 4s infinite linear}
+	@keyFrames rot{
+					0%{transform: rotateX(0deg); bottom: 2700px; opacity: 0%}
+					50%{transform: rotateX(180deg); bottom:2200px; opacity: 100%}
+					100%{transform: rotateX(360deg); bottom:1500px; opacity: 0%}
+				}
+.coin4{position: absolute; Left:-580px; bottom: -200px; width: 300px; margin-bottom: 0px;animation: rot 3s infinite linear}
+	@keyFrames rot{
+					0%{transform: rotateX(0deg); bottom: 200px; opacity: 0%}
+					50%{transform: rotateX(180deg); bottom:-300px; opacity: 100%}
+					100%{transform: rotateX(360deg); bottom:-800px; opacity: 0%}
+				}
+
+.coin6{position: absolute; width: 100%; margin-top: -200px;}
+.bill{position: absolute; width: 600px; left: -360px; bottom: 950px;}
+.medicine{position: absolute; width: 850px; left: -100px; bottom: 2630px}
+.hospital{position: absolute; width: 440px; left: -60px; bottom: 1890px}
+.talk{position: absolute; width: 420px; left: 450px; bottom: 1390px}
+.mariojump{position: absolute; width: 420px; left: 0px; bottom: 130px}
+.covids{position: absolute; width: 400px; left: 100px; bottom: 1290px}
+.graph{position: absolute; width: 380px; left: 420px; bottom: 1150px}
+.lock{position: absolute; width: 380px; left: 420px; bottom: 1620px}
+.brothers{position: absolute; width: 450px; left: -250px; bottom: 500px}
+.minecraft{position: absolute; width: 1000px; left: -30px; bottom: -220px}
+.shrink{position: absolute; width: 350px; left: -170px; bottom: 1200px}
+.punch{position: absolute; width: 450px; left: 500px; bottom: 1500px}
+	</style>
+
+
+
+
+
+</head>
+<body>
+	<section class="white">
+		<section style="background: url('1.png'); background-size: cover; background-attachment: fixed; color: #F5F5F5;">
+			<div class="contents">
+				<h0>
+					게임 중독 질병화 논쟁
+				</h0>
+				<h1>
+					정말 ‘아이’를<br>위한 선택인가요?
+				</h1>
+			</div>
+		</section>
+		<section>
+			<div class="contents">
+				<h3>
+					정의로<br>가득 찬 목소리.
+				</h3>
+				<h4 style="text-align: right; margin: 350px 0px 0px;">
+					“아이들의 미래를 위해”
+				</h4>
+				<h4 style="margin: 350px 0px 20px;">
+					“범죄 예방을 위해”
+				</h4>
+				<h4 style="text-align: center; margin: 350px 0px 20px; padding-bottom: 300px;">
+					“게임 중독을<br>질병화해야 한다!”
+					<img src="mario.png" class="mario">
+					</h4>
+			</div>
+		</section>
+		<section class="white">
+				<div class="contents; blue" style="padding: 50px 0px;">
+
+					<h3 style="text-align: center;">
+						그런데
+					</h3>
+					<h3 style="text-align: center;">
+						그들의 목소리는
+					</h3>
+					<h3 style="text-align: center; margin-bottom: 360px;">
+						정말 정의로울까?
+					</h3>
+					<img src="Lblack.png" class="l0">
+				</div>
+			
+		</section>
+	<section class="black" style="margin-top: 0px; overflow: visible;">
+		
+			<div class="contents">
+				<h6 style="margin: 150px 0px 0px 0px;">
+					논쟁의 불씨.
+				</h6>
+				<img src="fire.gif" class="fire">
+				<img src="fire.gif" class="fire2">
+				<img src="fire.gif" class="fire3">
+				<h2 class="c2" style="padding-top: 380px;">
+					2019년 5월,
+				</h2>
+				<h4 style="margin: 0px 0px;" class="c2">
+					WHO의 <em>질병코드</em> 부여.
+				</h4>
+				<p class="c2">
+					WHO는 제72차 총회에서 ‘게임 이용 장애’를 포함한<br>제11차 국제질병표준분류기준 개정안을 최종 의결했다.
+				</p>
+				<img src="WHO.png" class="WHO">
+				<p class="h7c" style="padding: 700px 0px 60px;">
+				이 결정은 전 세계적으로 큰 파장을 일으켰다.
+			</p>
+			</div>
+			
+		</section>
+		<section class="white">
+			<img src="Lblack2.png" class="l1">
+			<div class="contents" style="padding-bottom: 0px;">
+				<h6>
+					찬성과
+				</h6>
+				<div class="c4">
+					<img src="punch.gif" class="punch">
+					<h6>
+						반대의 대립.
+					</h6>
+				</div>
+				<img src="fight.png" class="fight">
+				<p class="h7c" style="padding-top:500px">
+					질병 코드 부여 이후,<br>질병화에 대한 논쟁이 시작되었다.
+				</p>
+			</div>
+		
+			<div class="contents">
+				<h4>
+					질병화 <em>찬성</em>
+				</h4>
+				<p>
+					질병 코드 등재가 긍정적 효과를 가져온다. 첫째, 진단 기준을 표준화해 연구와 통계 수집을 용이하게 한다. 둘째, 예방 및 치료 프로그램 개발을 위한 법적, 제도적 기반이 마련된다.
+				</p>
+				<p class="h7c" style="margin: 150px 0px 0px">
+					취약계층을 사회 안전망 안으로 포섭하고, 잠재적 사회 문제를 예방할 수 있다.
+				</p>
+			</div>
+		</section>
+		<section class="white">
+			<div class="contents">
+				<h4 style="margin: 60px 0px 0px">
+					질병화 <em>반대</em>
+				</h4>
+				<p>
+					문화 자체에 대한 부정적 인식을 확산시키고, 정상적인 열정과 병적인 집착을 구분하지 못하게 만들 수 있다. 객관적인 연구는 게임이 중독적이지 않다는 것을 증명한다.
+				</p>
+				<p class="h7c" style="margin: 150px 0px 0px">
+					낙인으로 인해 문화와 산업이 위협받는다.
+				</p>
+		
+		
+				<h3>
+					불편한 진실.
+				</h3>
+				<p class="h7">
+					<br><br>
+					겉보기엔 그럴듯한 논쟁.<br>그러나, ‘아이들을 위한다’는 명분 뒤, 불편한 진실이 있다.
+				</p>
+			</div>
+		</section>
+	</section>
+
+
+		<section style="background: url('industry.png'); background-attachment: fixed; color: #F5F5F5; overflow: visible; background-size: 100%">
+		
+		<div class="contents">
+			<img src="coin.png" class="coin">
+			<h6 style="text-shadow: 2px 3px 2px black;">
+				백조원 규모		
+			</h6>
+			<div class="c4">
+				<h6 style="text-shadow: 2px 3px 2px black;">
+					산업의 탄생.
+				</h6>
+			</div>
+		</section>
+		<section class="black" style="overflow: visible;">
+			<div class="contents">
+			<img src="coin.png" class="coin2">
+			<p class="h7" style="padding: 100px 0px 600px">
+				질병화 결정으로 인해<br>수십억 게이머는 잠재적 환자가 된다.
+			</p>
+			<img src="medicine.png" class="medicine">
+			<h4 class="c2">
+				약물 치료.
+			</h4>
+			<img src="talk.png" class="talk">
+			<h4 class="c3">
+				상담.
+			</h4>
+			<img src="hospital.png" class="hospital">
+			<h4 style="padding: 400px 0px;">
+				입원 프로그램.
+			</h4>
+			<img src="mario jump.gif" class="mariojump">
+			<p class="h7" style="padding: 150px 0px 300px;">
+				질병화로 인해 거대한 디톡스 산업이 탄생한다. ‘아이’는 돈벌이 수단이 된다.
+			</p>
+			<img src="coin.png" class="coin3">
+			
+			<h2 style="text-align: center;">
+				<img src="coin.png" class="coin4"><br>
+				질병화가 순수한 공중 보건적 우려로 이루어졌다는 말이 의심 받는 이유이다.
+			</h2>
+		
+		</div>
+		<img src="coin3.png" class="coin6">
+	</section>
+
+
+	<section class="black">
+		<div class="contents">
+			<img src="covid.png" style="margin: 1200px 0px 0px; ">
+			<img src="covids.png" class="covids">
+		</div>
+		<section style="background: url('game.png'); background-size: cover; background-attachment: fixed; color: #F5F5F5;" class="black">
+			<div class="contents">
+				<h3 style="margin-top: 200px">
+						WHO의 자기부정.
+				</h3>
+				<h4>
+					코에 걸면 코걸이<br>귀에 걸면 귀걸이.
+				</h4>
+				<p>
+					1년도 지나지 않은, 코로나 팬데믹 시기.<br>
+					WHO는 게임을 권장하며 앞뒤가 맞니 않는 선택을 한다.
+					<br>
+					<img src="play.png" style="padding: 200px 0px 200px;">
+				<h4>
+					#PlayApartTogether<br>캠페인
+				</h4>
+				<p>
+					WHO는 게임이 스트레스를 해소해주고,<br>정신 건강 유지에 건강한 수단이라고 적극적으로 홍보했다
+				</p>
+				<h2 style="text-align: center; padding: 300px 0px;">
+					절대적 의학적 기준에 기반한 결정이 아님을 스스로 증명한 것이다.
+				</h2>
+				</div>
+		</section>
+	
+
+		<section style="background: url('fake.png'); background-size: cover; background-attachment: fixed; color: white;">
+			<div class="contents">
+				<h3>
+					만들어진 질병.
+				</h3>
+				<img src="apa.png">
+				<h4>
+					미국정신의학회(APA)의 반대.
+				</h4>
+				<section>	
+						<p>
+							세계 정신의학 진단 기준 중 하나인 APA는 게임 중독을 ‘추가적 연구가 필요한 상태’로 분류했다. 게임 중독이 독립적 정신 질환으로 확증할 만큼 과학적 증거가 부족하다고 공식적으로 판단했음을 의미한다.
+						</p>
+					</section>
+					<h2 style="text-align: center; margin-top: 200px">
+						데이터 기반의 ‘발견된 질병’이 아닌, 정치적 요구로 ‘만들어진 질병’인 것이다.
+					</h2>
+			</div>
+		</section>
+
+
+		<section style="background: url('game.png'); background-size: cover; background-attachment: fixed; color: white;">
+			<div class="contents">
+				<h3 style="margin: 50px 0px 150px">
+					게임은 원인이 아니다.
+				</h3>
+				<img src="graph.png" class="graph">
+				<p class="f1">
+					문제적 게임 이용 청소년 중 88.5%는 ADHD, 우울증,조울증과 같은 질환을 함께 앓고 있었다.
+				</p>
+				<p style="text-align: center; margin: 250px 0px 150px;">
+					게임의 과도한 이용은 질병의 원인이라기보다,<br>이미 존재하던 정신적 어려움의 증상일 가능성이 매우 높다는 의미이다.
+				</p>
+				<h2 style="text-align: center; margin: 300px 0px;">
+					“어떻게 멈추게 할까?”보다<br>“왜 의존하는 것일까?”를 고민해야 한다.
+				</h2>
+			</div>
+		</section>
+	</section>
+	<section style="background: url('hancon.png'); background-size: 100%; background-attachment: fixed;">
+  		<div class="contents">
+			<h3>
+				&ensp;<br>&ensp;
+			</h3>
+		</div>
+	</section>
+	<section class="white">
+		<div class="contents">
+			<h3 style="padding: 30px 0px 200px; margin: 0px">
+				한국콘텐츠진흥원의 반박.
+			</h3>
+			<h2>
+				한국콘텐츠 진흥원은 5년간의 연구를 통해 게임 중독 질병화에 대해 반박했다.
+			</h2>
+
+			<h4 style="padding: 300px 0px 20px" >
+				과학적 타당성 검증 미흡.
+			</h4>
+			<p class="c5" style="margin-bottom: 15px;">
+				한국 콘텐츠 진흥원의 연구 참가자 중 지속적 문제 성향을 보이는 비율은 매우 낮았다.
+			</p>
+			<p class="c5" style="margin-top: 15px">
+				WHO의 기준상 게임으로 인해 12개월 이상 삶의 통제력 상실 등이 나타나야 하지만, 이 조건을 충족한 참가자는 없었다.
+			</p>
+			<h2 style="padding-top: 250px; text-align: center;">
+				이는 WHO의 주장이 현실과 거리가 있음을 시사한다.
+			</h2>
+
+			<h4 style="padding-top :250px">
+				게임이용 시간은 성장·발달에 따른 자연적 변화 가능성이 있다.
+			</h4>
+			<section style="display: flex; margin-bottom: 0px;">
+				<div class="f1">
+					<p>
+					아동·청소년 및 성인의 게임 시간, 이용 게임 수는 시간이 흐를수록 감소했다. 이는 진학 등 생애주기 요인이 반영된 결과이다.
+					</p>
+				</div>
+				<div class="f1">
+					<p>
+						연령 증가에 따라 다양한 여가활동으로 전환되는 경향 또한 확인되었다.
+					</p>
+				</div>
+			</section>
+			<p style="margin-top:10px">
+				학부모와 자녀가 인식하는 문제행동 수준도 점차 감소하는 경향을 보여, 성장에 따른 게임행동의 변화 가능성을 뒷받침하고 있다.
+			</p>
+			<img src="hancon1.png" style="padding: 220px 0px 0px">
+			<h2 style="margin: 20px 0px 0px;">
+				행동유형
+			</h2>
+			<p style="margin-top: 15px;">
+				모든 시기에 걸쳐 과몰입군에 연속 포함된 아동, 청소년은 없었다. 오히려 게임 미이용자가 된 과몰입군도 있었다.
+			</p>
+			<img src="hancon2.png" style="padding: 220px 0px 0px">
+			<h2>
+				게임 이용 시간
+			</h2>
+			<p style="margin-top: 15px;">
+				과몰입군 게임시간이 미포함군보다 적거나 같은 경우가 많았다. 게임 이용 시간과 과몰입 간 상관성이 없는 것이다.
+			</p>
+			<h2 style="text-align: center; padding: 300px 0px;">
+				이는 의료적 개입 필요성에 근본적 의문을 제기하는 근거로 활용될 수 있다.
+			</h2>
+			<h4 style="padding: 20px 0px 50px">
+				사회 관계가 게임 이용에 많은 영향을 미친다.
+			</h4>
+			<img src="brothers.gif" class="brothers">
+			<p class="c2"style="padding-bottom :200px">
+				형제,자매와 함께 게임을 하거나, 또래와 오프라인 사회관계가 많을수록 건전한 게임행동양식으로 분류되는 ‘선용군’ 포함 확률이 증가하여, 게임 과정에서 사회적 규범 학습의 영향도 확인되었다.<br><br>
+				부모의 양육태도, 교우관계 등도 게임이용 행태와 유의미한 상관관계를 보였다.
+			</p>
+		</div>
+	</section>
+
+
+	<section class="black" style="overflow: visible;">
+		<section style="background: url('shutdown.png'); background-size: cover; background-attachment: fixed; color: white; text-shadow: 2px 3px 2px black; overflow: visible;">
+<img src="Lblack.png" class="l4">
+		<div class="contents" style="padding-top: 200px; overflow: visible;">
+			<img src="lock.gif" class="lock">
+
+			<h6>
+				셧다운제의
+			</h6>
+			<h6 style="padding-bottom: 480px">
+				교훈.
+			</h6>
+		</div>
+		</section>
+		<div class="contents">
+			<p class="c22" style="padding-bottom: 250px">
+				2011년<br>청소년 수면권 보장을 명분으로, 만 16세 미만 청소년의 게임 접속을 자정부터 오전 6시까지 차단하는 규제.
+			</p>
+			<h4>
+				고작 1분 30초 증가한 수면 시간.
+			</h4>
+			<p style="padding-bottom: 300px">
+				시행 이후 청소년의 수면 시간 증가는 1분 30초 수준이다. 원인을 잘못 진단한 것이다. 다수의 연구는 원인이 게임이 아닌, 심야까지 이어지는 과도한 학습이라는 점을 지적했다.
+			</p>
+			<h4 style="text-align: right;">
+				게임 산업의 위축
+			</h4>
+			<img src="shrink.png" class="shrink">
+			<p class="c2" style="padding-bottom: 380px">
+				규제 준수를 위한 기술적, 행정적 비용이 발생했고, ‘게임은 유해한 것’이라는 사회적 낙인을 강화해 산업의 성장이 저해됐다. 이후 한국 게임 분야 시장은 심각하게 위축되었다.
+			</p>
+			<h4>
+				마인크래프트가 19금이 됐었다?
+			</h4>
+			<p>
+				전세계적으로 유례를 찾기 힘든 강력한 규제는 기업에 장벽으로 작용했다.
+			</p>
+			<p style="padding-bottom: 300px">
+				한국의 청소년만을 선별해 특정 시간에 차단해야하는 과도한 기술적 비용으로 인해 한국 청소년 이용 자체가 불가능해진 사건은, 근거 없는 규제가 낳은 국제적 망신 사례이다.
+			</p>
+			<img src="minecraft.png" class="minecraft">
+		</div>
+	</section>
+
+
+	<section class="white">
+		<div class="contents">
+			<h3 style="padding-bottom: 100px">
+				이권 다툼 속<br>고통 받는 이들.
+			</h3>
+			<h2>
+				질병이라는 낙인
+			</h2>
+			<p class="h7">
+				질병이라는 낙인은 수십억 게이머를 잠재적 정신병자이자 사회적 죄인으로 만든다.
+			</p>
+			<p class="c22" style="padding: 300px 0px 0px">
+				환자에게 진짜로 필요한 처방이 힘들어진다.
+			</p>
+			<p class="c2">
+				‘게임’이라는 편한 진단명에 진짜 문제가 가려진다.<br>심각한 우울증으로 게임에 몰두하는 환자가 ‘게임 이용 장애’로 진단 받는다면, 유일한 도피처를 빼앗길 뿐, 근본 원인인 우울증은 전혀 치료되지 않은 채 방치될 것이다.
+			</p>
+		</div>
+	</section>
+	<section>
+		<video src="skull.mp4" autoplay muted loop></video>
+		<div class="contents black" style="padding: 200px 0px 0px; background: none;">
+			<h3 style="color: #dfdfdf; margin: 0px 0px 60px;">
+				진짜 질병<br>게임인가, ‘그들’인가.
+			</h3>
+			<p class="h7c">
+				자신만의 이익을 위해 게임과 취약계층을 도구로 삼는 행동은 사회가 나아갈 수 있는 기회를 막는다.
+			</p>
+			<h2 style="text-align: center; padding: 200px 0px 40px;">
+				사회를 병들게 하는 질병은 ‘게임’이 아닌, 바로 ‘그들’ 자신이 아닐까?
+			</h2>
+		</div>
+	</section>
+</body>
+<footer style="background:#EDEDED; color:#101010; padding:120px 0 80px 0; font-family:'Noto Sans KR', sans-serif;">
+  <section style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:120px; max-width:1400px; margin:auto; padding:0 60px;">
+    
+    <div>
+      <h4 style="font-size:1.2rem; font-weight:700; margin-bottom:25px; text-align:left;">About</h4>
+      <p style="opacity:0.8; line-height:1.8; font-size:1rem; text-align:left;">
+        디지털 미디어 디자인<br>
+        과제 웹사이트.<br>
+        게임 중독 질병화 논쟁<br>
+        정말 ‘아이’를 위한 선택인가요?
+      </p>
+    </div>
+
+    <div>
+      <h4 style="font-size:1.2rem; font-weight:700; margin-bottom:25px; text-align:left;">Services</h4>
+      <p style="opacity:0.8; line-height:1.8; font-size:1rem; text-align:left;">
+        Digital media design<br>
+        2D Graphics<br>
+        3D Graphics
+      </p>
+    </div>
+
+    <div>
+      <h4 style="font-size:1.2rem; font-weight:700; margin-bottom:25px; text-align:left;">Tools</h4>
+      <p style="opacity:0.8; line-height:1.8; font-size:1rem; text-align:left;">
+        Adobe Photoshop<br>
+        Nano Banana<br>
+        Figma
+      </p>
+    </div>
+
+    <div>
+      <h4 style="font-size:1.2rem; font-weight:700; margin-bottom:25px; text-align:left;">Contact</h4>
+      <p style="opacity:0.8; line-height:1.8; font-size:1rem; text-align:left;">
+        Seoul National Univ. of Science & Tech<br>
+        Visual Design<br>
+        Email : gomtangi7812@naver.com<br>
+        010-1111-1111
+      </p>
+    </div>
+
+    <div>
+      <h4 style="font-size:1.2rem; font-weight:700; margin-bottom:25px; text-align:left;">Social</h4>
+      <p style="opacity:0.8; line-height:1.8; font-size:1rem; text-align:left;">
+        Instagram<br>
+        Behance<br>
+        Youtube
+      </p>
+    </div>
+  </section>
+
+  <div style="max-width:1400px; margin:auto; margin-top:100px; text-align:center; opacity:0.5; font-size:0.9rem;">
+    © 2025 Kim Minseong  |  Visual Design  |  25100952
+  </div>
+</footer>
+
+
+</html>
